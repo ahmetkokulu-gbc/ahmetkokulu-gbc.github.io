@@ -1,0 +1,44 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background: linear-gradient(135deg, #ff7eb3, #ff758c);
+  color: #fff;
+}
+
+#counter-container {
+  text-align: center;
+}
+
+button {
+  font-size: 18px;
+  padding: 10px 20px;
+  cursor: pointer;
+  border: none;
+  background-color: #ff4b5c;
+  color: #fff;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #ff1e38;
+}
+
+p {
+  font-size: 24px;
+  margin-top: 20px;
+  animation: fadeIn 0.5s;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
