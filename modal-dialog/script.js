@@ -10,6 +10,7 @@ openBtn.addEventListener("click", () => {
 
 // Close the modal when clicking outside the modal
 modalContainer.addEventListener("click", (e) => {
+  console.log(e.target);
   if (e.target === modalContainer) {
     modalContainer.style.display = "none";
   }
