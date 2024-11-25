@@ -10,7 +10,7 @@ openBtn.addEventListener("click", () => {
 
 // Close the modal when clicking outside the modal
 modalContainer.addEventListener("click", (e) => {
-  console.log(e.target);
+  console.log("Modal Container Event Triggered ", e.target);
   if (e.target === modalContainer) {
     modalContainer.style.display = "none";
   }
@@ -18,6 +18,7 @@ modalContainer.addEventListener("click", (e) => {
 
 // Close the modal when clicking the close button
 closeBtn.addEventListener("click", (e) => {
+  console.log("Close Button Event Triggered ", e.target);
   // e.stopPropagation(); // Prevent event bubbling to modalContainer
   modalContainer.style.display = "none";
 });
