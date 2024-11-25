@@ -18,6 +18,6 @@ modalContainer.addEventListener("click", (e) => {
 
 // Close the modal when clicking the close button
 closeBtn.addEventListener("click", (e) => {
-  e.stopPropagation(); // Prevent event bubbling to modalContainer
+  // e.stopPropagation(); // Prevent event bubbling to modalContainer
   modalContainer.style.display = "none";
 });
