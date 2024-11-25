@@ -10,6 +10,8 @@ document.addEventListener("scroll", () => {
     if (scrollY >= sectionTop - 60) {
       currentSection = section.getAttribute("id");
     }
+    console.log("scrollY ", scrollY)
+    console.log("currentSection", currentSection);
   });
 
   navLinks.forEach((link) => {
