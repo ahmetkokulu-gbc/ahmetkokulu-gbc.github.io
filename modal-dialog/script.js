@@ -19,6 +19,6 @@ modalContainer.addEventListener("click", (e) => {
 // Close the modal when clicking the close button
 closeBtn.addEventListener("click", (e) => {
   console.log("Close Button Event Triggered ", e.target);
-  e.stopPropagation(); // Prevent event bubbling to modalContainer
+  //e.stopPropagation(); // Prevent event bubbling to modalContainer
   modalContainer.style.display = "none";
 });
